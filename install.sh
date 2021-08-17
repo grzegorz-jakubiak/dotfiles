@@ -20,4 +20,7 @@ elif ! [[ $SHELL =~ .*zsh.* ]]; then
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 fi
 
+# Git 
+source install/git.sh
+
 echo "Done. Reload your terminal."
