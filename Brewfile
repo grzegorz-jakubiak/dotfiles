@@ -13,6 +13,7 @@ end
 tap "homebrew/bundle"
 tap "homebrew/core"
 
+brew "gnupg"
 brew "helm"
 brew "k9s"
 brew "tmux"

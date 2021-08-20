@@ -64,6 +64,13 @@ zinit light trapd00r/LS_COLORS
 
 # OS Specific
 if [[ "$OSTYPE" == "darwin"* ]]; then
+    zinit snippet .zshenv
+
+    export GPG_TTY=$(tty)
+    export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+    gpgconf --launch gpg-agent
+    gpg-connect-agent updatestartuptty /bye > /dev/null
+
     alias ls='ls -G'
     . $(brew --prefix asdf)/libexec/asdf.sh
 else
