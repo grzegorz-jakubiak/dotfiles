@@ -67,23 +67,23 @@ font:
   # The normal (roman) font face to use.
   # Style can be specified to pick a specific face.
   normal:
-    family: Anonymice Nerd Font
-    style: Light
+    family: MesloLGS NF
+    style: Regular
     # family: "Fira Code"
     # family: "Source Code Pro"
     # style: Retina
 
   # The bold font face
   bold:
-    family: Anonymice Nerd Font
-    style: Medium
+    family: MesloLGS NF
+    style: Bold
     # family: "Fira Code"
     # family: "Source Code Pro"
 
   # The italic font face
   italic:
-    family: Anonymice Nerd Font
-    style: "Light Italic"
+    family: MesloLGS NF
+    style: Italic
     # style: "Light Oblique"
     # family: "Fira Code"
     # family: "Source Code Pro"
