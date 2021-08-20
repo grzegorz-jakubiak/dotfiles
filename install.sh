@@ -26,4 +26,11 @@ source install/git.sh
 # links
 source install/link.sh
 
+if [[ "$OSTYPE" = "darwin"* ]]; then
+    echo -e "\\n\\nRunning on MacOS"
+
+    source install/macos.sh
+fi
+
+
 echo "Done. Reload your terminal."
