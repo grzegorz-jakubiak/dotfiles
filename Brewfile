@@ -1,20 +1,20 @@
 if OS.mac?
   # taps
-  tap "homebrew/cask"
-  tap "homebrew/cask-fonts"
+  tap 'homebrew/cask'
+  tap 'homebrew/cask-fonts'
 
   # Alacritty
-  cask "alacritty"
+  cask 'alacritty'
 
   # Fonts
-  cask "font-hack-nerd-font"
+  cask 'font-hack-nerd-font'
 end
 
-tap "homebrew/bundle"
-tap "homebrew/core"
+tap 'homebrew/bundle'
+tap 'homebrew/core'
 
-brew "gnupg"
-brew "helm"
-brew "k9s"
-brew "tmux"
-brew "asdf"
+brew 'gnupg'
+brew 'helm'
+brew 'k9s'
+brew 'tmux'
+brew 'asdf'
