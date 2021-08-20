@@ -1,3 +1,9 @@
 [user]
 	name = Grzegorz Jakubiak
 	email = grzegorz.jakubiak@outlook.com
+[branch]
+  autoSetupRebase = always
+[pull]
+	rebase = true
+[rebase]
+	autosquash = true
