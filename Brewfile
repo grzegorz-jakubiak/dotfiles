@@ -3,9 +3,6 @@ if OS.mac?
   tap 'homebrew/cask'
   tap 'homebrew/cask-fonts'
 
-  # Alacritty
-  cask 'alacritty'
-
   # Fonts
   cask 'font-hack-nerd-font'
 end
